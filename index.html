@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech - Dashboard Financeiro</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Cabeçallho com botão de menu sanduíche que leva para as outras páginas do app e saudação da página do Dashboard -->
+    <header>
+        <button class="menu-btn">&#9776;</i></button>
+        <h1>Olá, Nome e Sobrenome</h1>
+    </header>
+    <!-- Menu de navegação rápida entre as diferentes categorias -->
+    <nav>
+        <button class="nav-btn active">Visão Geral</button>
+        <button class="nav-btn">Receitas</button>
+        <button class="nav-btn">Despesas</button>
+        <button class="nav-btn">Investimentos</button>
+    </nav>
+    <!-- Container principal, com cards de cada informação financeira -->
+    <main>
+        <div class="card">
+            <h2>Receitas do mês corrente</h2>
+            <p class="value blue">R$30.000,00</p>
+        </div>
+        <div class="card">
+            <h2>Despesas do mês corrente</h2>
+            <p class="value red">R$15.000,00</p>
+        </div>
+        <div class="card">
+            <h2>Saldo do mês corrente</h2>
+            <p class="value orange">R$15.000,00</p>
+        </div>
+        <div class="card">
+            <h2>Investimentos totais</h2>
+            <p class="value green">R$100.000,00</p>
+            <p class="percentage">+1,50% em relação ao último mês</p>
+        </div>
+    </main>
+</body>
+</html>
